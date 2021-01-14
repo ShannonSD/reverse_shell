@@ -8,7 +8,7 @@ def importfunc():           #function to import modules that are not available b
 	modname=["pyscreenshot","keyboard"]
 	#modules that are not built-into python
 	try:
-		import pip              #try to attempt pip
+		import pip              #try to import pip
 	except ImportError:
 		subprocess.run(["apt","install","python3-pip"])       #install pip if unavailable
 	for x in modname:
