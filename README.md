@@ -31,3 +31,5 @@ The reverse shell is able to:
 4) capture screenshots
 5) capture keystrokes and email them
 6) convert itself into an executable to evade detection
+
+This program was built for educational purposes. Do not use it to access systems that you are not authorized to use.
